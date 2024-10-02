@@ -1,0 +1,59 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  width: 8%;
+  background-color: var(--primary-color);
+}
+
+.sidebar_container {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  height: 100vh;
+  padding: 80px 0 0 0;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 48px;
+  height: 5vh;
+}
+
+.main_actions {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+  height: 60vh;
+}
+
+.other_actinos {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+  height: 20vh;
+}
+
+.icon {
+  font-size: 52px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background: var(--secondary-color); */
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.icon:hover {
+  background: var(--secondary-hover-color);
+}
+
+.icon_active {
+  font-size: 52px;
+  color: #64D895;
+}

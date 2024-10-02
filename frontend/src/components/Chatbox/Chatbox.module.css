@@ -1,0 +1,116 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  width: calc(62% - 1px);
+  border-left: 1px solid #A6FDB9;
+}
+
+.chatbox_conatiner {
+    display: flex;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+}
+
+.header {
+    display: flex;
+    height: 8vh;
+    padding: 0 40px;
+    justify-content: space-between;
+    background-color: var(--secondary-color);
+
+}
+
+.account_info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar {
+    display: flex;
+}
+
+.name_wallet {
+    display: flex;
+    flex-flow: column;
+    justify-content: start;
+    align-items: start;
+    padding-left: 16px;
+}
+
+.more_actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+
+.more_actions_container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.chat_content {
+    display: flex;
+    flex-flow: column;
+    height: calc(82vh - 2px);
+    padding: 0 40px;
+    border-bottom: 1px solid #384F4F;
+    border-top: 1px solid #384F4F;
+}
+
+.footer {
+    display: flex;
+    height: 10vh;
+    padding: 0 40px;
+    background-color: var(--secondary-color);
+    justify-content: space-between;
+}
+
+.chat_input {
+  display: flex;
+  width: 75%;
+  padding: 20px 0;
+}
+
+.chat_input textarea {
+  border-radius: 12px;
+  background-color: var(--third-color);
+  padding: 15px 16px;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--text-color);
+  width: 100%;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+.chat_actions {
+  display: flex;
+  width: 20%;
+  justify-content: space-between;
+  padding: 25px 0;
+}
+
+.chat_actions .icon {
+  font-size: 42px;
+}
+
+.icon {
+  font-size: 52px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background: var(--secondary-color); */
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.icon:hover {
+  background: var(--secondary-hover-color);
+}

@@ -1,0 +1,140 @@
+.container {
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  flex-flow: column;
+  width: 31%;
+  /* height: 100vh; */
+  padding: 80px 30px 0 30px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.avatar_status {
+  padding: 45px 0;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar_status img {
+  width: 112px;
+  height: 112px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.avatar_status .user_name {
+  padding-top: 25px;
+}
+
+.avatar_status .icon {
+  font-size: 100px;
+}
+
+.user_status {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.user_status .icon_online {
+  font-size: 16px;
+  border-radius: 50%;
+  color: #64D895;
+  background-color: #64D895;
+}
+
+.user_status .icon_online:hover {
+  font-size: 16px;
+  color: #64D895;
+  background-color: #64D895;
+}
+
+.user_status .icon_offline {
+  font-size: 16px;
+  border-radius: 50%;
+  color: gray;
+  background-color: gray;
+}
+
+.user_status .icon_offline:hover {
+  font-size: 16px;
+  color: gray;
+  background-color: gray;
+}
+
+.icon {
+  font-size: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background: var(--secondary-color); */
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.icon:hover {
+  background: var(--secondary-hover-color);
+}
+
+.user_summery {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.user_summery p {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: start;
+}
+
+.user_about {
+  padding-top: 30px;
+  display: flex;
+  flex-flow: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.user_about span {
+  padding-bottom: 16px;
+}
+
+.user_about label {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.edit_info {
+  padding-top: 30px;
+  width: 15%;
+  justify-content: start;
+}
+
+.edit_info button {
+  max-height: 30px;
+  padding: 4px 10px;
+  font-size: 12px;
+}
+
+.user_info {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.user_about input {
+  border-radius: 12px;
+  padding: 10px 12px;
+  background-color: var(--third-color);
+  color: var(--text-color);
+}

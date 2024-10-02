@@ -6,6 +6,7 @@
   width: 31%;
   /* height: 100vh; */
   padding: 80px 30px 0 30px;
+  background-color: var(--secondary-color);
 }
 
 .header {

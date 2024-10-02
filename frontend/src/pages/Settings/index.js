@@ -1,15 +1,10 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import styles from "./Settings.module.css";
+import { UserContext } from "../../utils/UserContext"; // Import context
 
 const Settings = () => {
+  const { userInfo, setUserInfo } = useContext(UserContext); // Get user info and setter from context
   const [isEditing, setIsEditing] = useState(false);
-  const [userInfo, setUserInfo] = useState({
-    name: "John Smith",
-    email: "abc@123.com",
-    time: "11:40 AM",
-    location: "California, US",
-    avatar: null // New state for avatar
-  });
 
   const handleEditToggle = () => {
     setIsEditing(!isEditing);

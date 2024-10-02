@@ -33,7 +33,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #64D895;
+  color: #64d895;
   transition: 0.2s ease;
 }
 
@@ -60,7 +60,7 @@
 .form_input_icon_span {
   padding: 20px 16px;
   font-size: 24px;
-  color: #7A7A7A;
+  color: #7a7a7a;
 }
 
 .form_input_tag input {
@@ -134,4 +134,16 @@
 
 .more_actions .icon {
   font-size: 36px;
+}
+
+.no_item {
+  font-family: "Gigranche Demo";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+  color: #474747;
+  font-size: 18px;
+  padding: 21px 27px;
+  cursor: pointer;
 }

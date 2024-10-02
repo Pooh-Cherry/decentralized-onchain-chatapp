@@ -93,7 +93,7 @@ const Contacts = () => {
             </li>
           ))
         ) : (
-          <li className={styles.contact_item}>No contacts found</li>
+          <li className={styles.no_item}>No contacts found</li>
         )}
       </ul>
     </div>

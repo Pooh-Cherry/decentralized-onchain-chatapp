@@ -1,9 +1,13 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "./Profile.module.css";
 import avatar from "../../assets/images/temp_avatar.png";
 
 const Profile = () => {
   const [isOnline, setIsOnline] = useState(true); // State to track user's status
+
+  useEffect(() => {
+    setIsOnline(true);
+  }, [])
 
   return (
     <div className={styles.container}>

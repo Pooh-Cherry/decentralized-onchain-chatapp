@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import styles from "./Siginup.module.css"
 import logo from "../../assets/images/logo.svg"
 
@@ -7,7 +6,7 @@ const Signup = () => {
     return (
         <div className={styles.container}>
             <div className={styles.logo}>
-                <img src={logo} />
+                <img src={logo} alt="logo" />
                 <h1>CHATCHAIN</h1>
             </div>
             <div className={styles.header}>

@@ -7,7 +7,7 @@ const Signin = () => {
   return (
     <div className={styles.container}>
       <div className={styles.logo}>
-        <img src={logo} />
+        <img src={logo} alt="logo" />
         <h1>CHATCHAIN</h1>
       </div>
       <div className={styles.header}>
